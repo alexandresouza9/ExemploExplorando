@@ -22,10 +22,12 @@ namespace ExemploExplorando.Models
                 _nome = value;
             }
          }
+        public string Sobrenome { get; set; }
+        public string NomeCompleto => $"{Nome} {Sobrenome}" .ToUpper();
         public int Idade { get; set;}
         public void Apresentar()
         {
-            Console.WriteLine($"Nome: {Nome}, Idade: {Idade}");
+            Console.WriteLine($"Nome: {NomeCompleto}, Idade: {Idade}");
         }
     }
 }

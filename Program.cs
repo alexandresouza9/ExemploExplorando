@@ -2,25 +2,26 @@
 //Console.WriteLine("Hello, World!");
 using ExemploExplorando.Models;
 using System.Globalization;
+DateTime data = DateTime.Now;
+DateTime data2 = DateTime.Parse("31/07/1982 18:15");
+
+//Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
+Console.WriteLine(data.ToLongDateString());
+Console.WriteLine(data.ToShortDateString());
+Console.WriteLine(data.ToShortTimeString());
+Console.WriteLine(data2);
 
 
-CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
-decimal valorMonetario = 2582.40M;
+
+
+//CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
+//decimal valorMonetario = 2582.40M;
 //Console.WriteLine($"{valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("en-US"))}");
-Console.WriteLine($"{valorMonetario.ToString("N2")}");
-
-double porcentagem = .3421;
-Console.WriteLine(porcentagem.ToString("P"));
-int numero = 123456;
-Console.WriteLine(numero.ToString("##-##-##"));
-
-
-
-
-
-
-
-
+//Console.WriteLine($"{valorMonetario.ToString("N2")}");
+//double porcentagem = .3421;
+//Console.WriteLine(porcentagem.ToString("P"));
+//int numero = 123456;
+//Console.WriteLine(numero.ToString("##-##-##"));
 
 //int numero1 = 10;
 //int numero2 = 20;

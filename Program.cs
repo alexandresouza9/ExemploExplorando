@@ -2,16 +2,101 @@
 //Console.WriteLine("Hello, World!");
 using ExemploExplorando.Models;
 using System.Globalization;
-DateTime data = DateTime.Now;
-DateTime data2 = DateTime.Parse("31/07/1982 18:15");
+
+
+
+
+
+
+
+// int numero = 100;
+// bool ehPar = false;
+
+// ehPar = numero % 2 == 0;
+// Console.WriteLine($"O número {numero} é " + (ehPar? "par" : "impar"));
+
+// if (numero % 2 == 0)
+// {
+//     Console.WriteLine($"O número {numero} é par");
+// }
+// else
+// {
+//     Console.WriteLine($"O número {numero} é impar");
+// }
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa("Alexandre", "Souza");
+
+// (string nome, string sobrenome) = p1;
+
+// Console.WriteLine($"{nome} {sobrenome}");
+// LeituraArquivo arquivo = new LeituraArquivo();
+
+// var(sucesso, linhasArquivo, quantidadesLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+// if (sucesso)
+// {
+//     Console.WriteLine("Quantidade linhas do arquivo:" + quantidadesLinhas);
+//     foreach(string linha in linhasArquivo)
+//     {
+//         Console.WriteLine(linha);
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("Não foi possível ler arquivo");
+// }
+// (int Id, string Nome, string Sobrenome, decimal Altura) tupla = (1, "Alexandre", "Souza", 10.80M);
+// //ValueTuple<int, string, string, decimal> outroExemploTupla = (1, "Alexandre", "Souza", 10.80M);
+
+// Console.WriteLine($"Id: {tupla.Id}");
+// Console.WriteLine($"Nome: {tupla.Nome}");
+// Console.WriteLine($"Sobrenome: {tupla.Sobrenome}");
+// Console.WriteLine($"Altura: {tupla.Altura}");
+
+//Queue<int> fila = new Queue<int>();
+//fila.Enqueue(2);
+//fila.Enqueue(4);
+//fila.Enqueue(6);
+//fila.Enqueue(8);
+//foreach (int item in fila)
+//{
+    //Console.WriteLine(item);
+//}
+//Console.WriteLine($"Removendo o elemento: {fila.Dequeue()}");
+
+//foreach (int item in fila)
+//{
+    //Console.WriteLine(item);
+//}
+
+//string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+
+//try
+//{
+//foreach (string linnha in linhas)
+//{
+//    Console.WriteLine(linnha);
+//}
+//} catch(Exception ex)
+//{
+//    Console.WriteLine($"Ocorreu uma exceção genérica.{ex.Message}");
+//}
+//Console.WriteLine("Chegou até aqui!!!");
+
+//DateTime data = DateTime.Now;
+//DateTime data2 = DateTime.Parse("31/07/1982 18:15");
 
 //Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
-Console.WriteLine(data.ToLongDateString());
-Console.WriteLine(data.ToShortDateString());
-Console.WriteLine(data.ToShortTimeString());
-Console.WriteLine(data2);
-
-
+//Console.WriteLine(data.ToLongDateString());
+//Console.WriteLine(data.ToShortDateString());
+//Console.WriteLine(data.ToShortTimeString());
+//Console.WriteLine(data2);
 
 
 //CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");

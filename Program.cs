@@ -2,6 +2,22 @@
 //Console.WriteLine("Hello, World!");
 using ExemploExplorando.Models;
 using System.Globalization;
+//using Models;
+using Newtonsoft.Json;
+
+List<Venda> ListaVendas = new List<Venda>();
+
+Venda v1 = new Venda(1, "material de escritório", 25.00M);
+Venda v2 = new Venda(2, "Licença de Software", 110.00M);
+
+ListaVendas.Add(v1);
+ListaVendas.Add(v2);
+
+string serializado = JsonConvert.SerializeObject(ListaVendas, Formatting.Indented);
+
+
+File.WriteAllText("Arquivos/vendas.json", serializado);
+Console.WriteLine(serializado);
 
 
 

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KyLjxqzJdCdDS4eTxYQvi+/eyUO0Q32IuUp//SIxWg02HdzuqvzcN36HdsQVn+a4oehEd7aOSuN/lpKUIe99CA==",
+  "dgSpecHash": "f4TPaEmOm7eGN8pFDLBOzqqonLV721X3+UX5ignmeTooXmkEiBOFM5du2pJ0mlggBL7jVqAGJw/BVXipA+49RQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\alexa\\Documents\\Github\\ExemploExplorando\\ExemploExplorando.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\alexa\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

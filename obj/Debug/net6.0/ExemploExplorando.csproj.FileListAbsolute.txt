@@ -28,3 +28,5 @@ C:\Users\alexa\Documents\Github\ExemploExplorando\obj\Debug\net6.0\refint\Exempl
 C:\Users\alexa\Documents\Github\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.pdb
 C:\Users\alexa\Documents\Github\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.genruntimeconfig.cache
 C:\Users\alexa\Documents\Github\ExemploExplorando\obj\Debug\net6.0\ref\ExemploExplorando.dll
+C:\Users\alexa\Documents\Github\ExemploExplorando\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\alexa\Documents\Github\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.csproj.CopyComplete
